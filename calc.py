@@ -6,8 +6,10 @@ CS 362 - Git in class activity
 
 def calc(a, b):
 	sum = a+b
-	print("Sum =", sum)
+	print("sum =", sum)
 	dif = a-b
 	print("dif =", dif)
+	mul = a*b
+	print("mul =", mul)
 
 calc(3, 4)
