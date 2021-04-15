@@ -15,5 +15,9 @@ def calc(a, b):
 	print("div =", div)
 	my_list = [sum, dif, mul, div]
 	print(my_list)
+	add = 0
+	for i in range(4):
+		add += my_list[i]
+	print("sum of the list =", add)
 
 calc(3, 4)
