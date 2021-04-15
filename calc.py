@@ -13,5 +13,7 @@ def calc(a, b):
 	print("mul =", mul)
 	div = a/b
 	print("div =", div)
+	my_list = [sum, dif, mul, div]
+	print(my_list)
 
 calc(3, 4)
