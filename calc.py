@@ -11,5 +11,7 @@ def calc(a, b):
 	print("dif =", dif)
 	mul = a*b
 	print("mul =", mul)
+	div = a/b
+	print("div =", div)
 
 calc(3, 4)
