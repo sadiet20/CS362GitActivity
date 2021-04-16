@@ -6,6 +6,6 @@ def find_divisors(x):
 		if(x%div==0):
 			divisors.append(div)
 		div = div - 1
-
+	print(divisors)
 
 find_divisors(8)
